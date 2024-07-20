@@ -18,7 +18,7 @@ function percentage_calculator() {
         document.getElementById("weeks").textContent = "That's " + (requiredClasses / 22).toFixed(2) + " weeks.";
     } else {
         // Calculate how many days the student can be absent and still maintain the desired percentage
-        let maxAbsentDays = (y - (z / 100) * x) / (1 - (z / 100));
+        let maxAbsentDays = ((y * 100) - (z * x)) / z;
         document.getElementById("classes").textContent = "You have already achieved the desired percentage.";
         document.getElementById("weeks").textContent = "You can be absent for " + maxAbsentDays.toFixed(2) + " more classes.";
     }
