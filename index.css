@@ -80,24 +80,24 @@
 /* Responsive styling */
 @media (max-width: 768px) {
     .percentage-heading {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .head-text {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .input-box {
         height: 60px;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .button {
-        padding: 20px;
-        font-size: 1.5rem;
+        padding: 10px;
+        font-size: 1rem;
     }
     .result{
-        font-size: 1.8rem;
+        font-size: 1rem;
         padding: 8px;
     }
 }
